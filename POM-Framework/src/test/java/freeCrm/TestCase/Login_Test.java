@@ -32,18 +32,18 @@ public class Login_Test extends TestBase {
 		
 	}
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void validateLoginPageTitleTest(){
 		logger = extent.createTest("started validate login page title test");
 		logger.info("validating title-----");
 		String title= loginpage.validateLoginPageTitle();
 		
-		Assert.assertEquals(title, "CRMPRO1 - CRM software for customer relationship management, sales, and support.");
+		Assert.assertEquals(title, "CRMPRO - CRM software for customer relationship management, sales, and support.");
 		logger.pass("test passed");
 		Helper.captureScreenshots(driver);
 		//Assert.assertTrue(title.contains("CRMPRO"), "TITLE OF THE PAGE DOESN'T MATCH-----");
 				
-	}
+	}*/
 	
 	/*@Test(priority=2)
 	public void crmLogo(){
